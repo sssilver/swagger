@@ -1,0 +1,28 @@
+[package]
+
+name = "swagger"
+version = "0.0.0"
+authors = [
+    "Silver <sssilver@gmail.com>"
+]
+
+[[bin]]
+name = "swagger"
+
+[dependencies]
+image = "*"
+
+[dependencies.piston]
+git = "https://github.com/PistonDevelopers/piston.git"
+
+[dependencies.piston2d-sprite]
+git = "https://github.com/pistondevelopers/sprite"
+
+[dependencies.piston2d-graphics]
+git = "https://github.com/PistonDevelopers/graphics.git"
+
+[dependencies.pistoncore-sdl2_window]
+git = "https://github.com/PistonDevelopers/sdl2_window.git"
+
+[dependencies.piston2d-opengl_graphics]
+git = "https://github.com/PistonDevelopers/opengl_graphics.git"
